@@ -1,0 +1,410 @@
+//------------------------------------------------
+//--- 010 Editor v9.0.2 Binary Template
+//
+//      File: Starts at 22.bin/ lobby_activity.bin
+//   Authors: NellsRelo
+//   Version: 0.75
+//   Purpose: Mapping of lobby_activity.bin.
+//   History
+//   0.75    2020-08-18  NellsRelo - Start
+//------------------------------------------------
+#include "../misc_util.bt";
+#include "../3H_Enums.bt";
+
+LittleEndian();
+local int i<hidden=true>;
+
+struct UnknownSection1 {
+    SectionMagic unknownSection1Magic;
+    struct Unknown {
+        CharID charID;
+        byte unkVal<bgcolor=cRed>;
+        byte unkVal2<bgcolor=cRed>;
+        byte unkVal3<bgcolor=cRed>;
+        byte padding<bgcolor=cYellow>;
+    } unknownData[unknownSection1Magic.num];
+};
+
+struct UnknownSection2 {
+    SectionMagic unknownSection2Magic;
+    struct Unknown2 {
+        short unkID1;
+        short unkID2;
+        short unkID3;
+        byte unkVal3;
+        byte unkVal4;
+        byte unkVal5;
+        byte unkVal6;
+        byte unkVal7;
+        byte unkVal8;
+        byte unkVal9;
+        byte unkVal10; // Always increments by 1
+        byte unkVal11;
+        byte unkVal12;
+        byte unkVal13;
+        byte unkVal14;
+    } unknownData2[unknownSection2Magic.num];
+};
+
+struct UnknownSection3 {
+    SectionMagic unknownSection3Magic;
+    struct Unknown3 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData3[unknownSection3Magic.num];
+};
+
+struct UnknownSection4 {
+    SectionMagic unknownSection4Magic;
+    struct Unknown4 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData4[unknownSection4Magic.num];
+};
+
+struct UnknownSection5 {
+    SectionMagic unknownSection5Magic;
+    struct Unknown5 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData5[unknownSection5Magic.num];
+};
+
+struct UnknownSection6 {
+    SectionMagic unknownSection6Magic;
+    struct Unknown6 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData6[unknownSection6Magic.num];
+};
+
+struct UnknownSection7 {
+    SectionMagic unknownSection7Magic;
+    struct Unknown7 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData7[unknownSection7Magic.num];
+};
+
+struct UnknownSection8 {
+    SectionMagic unknownSection8Magic;
+    struct Unknown8 {
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+    } unknownData8[unknownSection8Magic.num];
+};
+
+struct UnknownSection9 {
+    SectionMagic unknownSection9Magic;
+    struct Unknown9 {
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+        short unkVal;
+    } unknownData9[unknownSection9Magic.num];
+};
+
+struct UnknownSection10 {
+    SectionMagic unknownSection10Magic;
+    struct Unknown10 {
+        byte unkVal;
+    } unknownData10[unknownSection10Magic.num];
+};
+
+struct UnknownSection11 {
+    SectionMagic unknownSection11Magic;
+    struct Unknown11 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData11[unknownSection11Magic.num];
+};
+
+struct UnknownSection12 {
+    SectionMagic unknownSection12Magic;
+    struct Unknown12 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData12[unknownSection12Magic.num];
+};
+
+struct UnknownSection13 {
+    SectionMagic unknownSection13Magic;
+    struct Unknown13 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData13[unknownSection13Magic.num];
+};
+
+struct UnknownSection14 {
+    SectionMagic unknownSection14Magic;
+    struct Unknown14 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData14[unknownSection14Magic.num];
+};
+
+struct UnknownSection15 {
+    SectionMagic unknownSection15Magic;
+    struct Unknown15 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData15[unknownSection15Magic.num];
+};
+
+struct UnknownSection16 {
+    SectionMagic unknownSection16Magic;
+    struct Unknown16 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData16[unknownSection16Magic.num];
+};
+
+struct UnknownSection17{
+    SectionMagic unknownSection17Magic;
+    struct Unknown17 {
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+        byte unkVal;
+    } unknownData17[unknownSection17Magic.num];
+};
+
+struct File {
+    SectionPointer sectionPointer;
+    UnknownSection1 unknownSection<bgcolor=cDkGreen>;
+    UnknownSection2 unknownSection2<bgcolor=cBlue>;
+    UnknownSection3 unknownSection3<bgcolor=cPurple>;
+    UnknownSection4 unknownSection4<bgcolor=cDkRed>;
+    UnknownSection5 unknownSection5<bgcolor=cYellow>;
+    UnknownSection6 unknownSection6<bgcolor=cGreen>;
+    short unkPadding; // Some odd padding starts happening between sections here
+    UnknownSection7 unknownSection7<bgcolor=cLtRed>;
+    short unkPadding; // More odd padding
+    UnknownSection8 unknownSection8<bgcolor=cDkBlue>;
+    UnknownSection9 unknownSection9<bgcolor=cAqua>;
+    UnknownSection10 unknownSection10<bgcolor=cDkGreen>;
+    UnknownSection11 unknownSection11<bgcolor=cBlue>;
+    short unkPadding; // More odd padding
+    UnknownSection12 unknownSection12<bgcolor=cPurple>;
+    UnknownSection13 unknownSection13<bgcolor=cDkRed>;
+    UnknownSection14 unknownSection14<bgcolor=cYellow>;
+    UnknownSection15 unknownSection15<bgcolor=cGreen>;
+    UnknownSection16 unknownSection16<bgcolor=cLtRed>;
+    UnknownSection17 unknownSection17<bgcolor=cDkBlue>;
+} file;
